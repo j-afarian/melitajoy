@@ -1,11 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:300");
-
-/*
-	Locus by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,900");
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -85,7 +79,7 @@ input, select, textarea {
 	body {
 		background-color: #23141f;
 		background-attachment: scroll,							fixed;
-		background-image: url("images/overlay1.png"), url("../../images/bg.jpg");
+		background-image: url(""), url("../../images/bg-stacks.jpg");
 		background-position: top left,						top center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -103,7 +97,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #757575;
 		font-family: "Lato", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -127,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #000000;
 		font-weight: 300;
 	}
 
@@ -140,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 		font-weight: 300;
 		letter-spacing: 0.25em;
 		line-height: 1em;
@@ -154,7 +148,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.5em;
 		line-height: 2em;
 	}
 
@@ -230,6 +224,10 @@ input, select, textarea {
 			padding: 1em 1.5em;
 			overflow-x: auto;
 		}
+
+	.emph {
+		font-weight: 900 !important;
+	}
 
 	.align-left {
 		text-align: left;
@@ -1723,6 +1721,8 @@ input, select, textarea {
 		margin: 0 0 1.5em 0;
 	}
 
+
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
@@ -1748,7 +1748,7 @@ input, select, textarea {
 	}
 
 		header.major p {
-			border-top: solid 1px #313032;
+			border-top: solid 1px #d0cfd1;
 			color: #757575;
 			display: inline-block;
 			font-size: 1.35em;
@@ -1797,10 +1797,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background-color: rgba(207, 201, 214, 0.035);
+		background-color: #F6F6F6;
 		border-radius: 8px;
 		border: none;
-		border: solid 1px #4c4b4d;
+		border: solid 1px #dbdbdb;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1876,7 +1876,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #757575;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2234,7 +2234,7 @@ input, select, textarea {
 				-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				border-radius: 100%;
-				border: solid 1px #4c4b4d;
+				border: solid 1px #d0cfd1;
 				color: inherit;
 				display: inline-block;
 				height: 3em;
@@ -2248,8 +2248,9 @@ input, select, textarea {
 				}
 
 				ul.icons li .icon:hover {
-					background: rgba(207, 201, 214, 0.035);
-					color: inherit !important;
+					background: rgba(207, 201, 214, 0.1);
+					color: #b56969;
+					border: solid 1px #b56969;
 				}
 
 				ul.icons li .icon:active {
@@ -2341,8 +2342,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 8px;
-		border: solid 1px #4c4b4d !important;
-		color: #ffffff !important;
+		border: solid 1px #c9c9c9 !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2587,7 +2588,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #1f1e21;
+		background: #F6F6F6;
 		border-radius: 8px;
 		margin: 6em auto 3em auto;
 		width: 51em;
@@ -2598,13 +2599,13 @@ input, select, textarea {
 		}
 
 		#wrapper > section {
-			border-top: solid 1px #313032;
+			border-top: solid 1px #d0cfd1;
 		}
 
 /* Header */
 
 	#header {
-		background-color: #19181a;
+		background-color: #F6F6F6;
 		border-radius: 8px 8px 0 0;
 		border-top: 0 !important;
 		position: relative;
@@ -2647,13 +2648,14 @@ input, select, textarea {
 				font-size: 2.5em;
 				line-height: 1.5em;
 				margin: 0;
+				color: #000000;
 			}
 
 			#header > header p {
-				border-top: solid 1px #313032;
+				border-top: solid 1px #d0cfd1;
 				color: #757575;
 				display: inline-block;
-				font-size: 1.35em;
+				font-size: 1.2em;
 				letter-spacing: 0.25em;
 				line-height: 2em;
 				margin: 1.5em 0 0 0;
@@ -2665,7 +2667,7 @@ input, select, textarea {
 			}
 
 		#header > nav {
-			border-top: solid 1px #313032;
+			border-top: solid 1px #d0cfd1;
 		}
 
 			#header > nav > ul {
@@ -2674,7 +2676,7 @@ input, select, textarea {
 			}
 
 				#header > nav > ul li {
-					border-left: solid 1px #313032;
+					border-left: solid 1px #d0cfd1;
 					display: inline-block;
 					line-height: 3.5em;
 					min-width: 20%;
@@ -2687,7 +2689,7 @@ input, select, textarea {
 						-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 						transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 						border: 0;
-						color: #757575;
+						color: #595959;
 						color: inherit;
 						display: block;
 						font-size: 0.8em;
@@ -2700,7 +2702,7 @@ input, select, textarea {
 
 						#header > nav > ul li a:hover {
 							background: rgba(207, 201, 214, 0.035);
-							color: #ffffff !important;
+							color: #000000 !important;
 						}
 
 					#header > nav > ul li:first-child {
@@ -2729,7 +2731,7 @@ input, select, textarea {
 
 	#banner {
 		background-color: #2a2b2e;
-		background-image: url("images/overlay2.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay3.png"), url("../../images/melitabanner.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -2771,7 +2773,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: #19181a;
+		background-color: #ededed;
 		border-radius: 0 0 8px 8px;
 		padding: 5em 3em 3em 3em ;
 		text-align: center;
@@ -2787,7 +2789,7 @@ input, select, textarea {
 			}
 
 		#footer .icons {
-			border-top: solid 1px #313032;
+			border-top: solid 1px #d0cfd1;
 			left: -3em;
 			margin: 0;
 			padding: 2em 0;
