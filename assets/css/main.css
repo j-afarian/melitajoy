@@ -1,4 +1,3 @@
-@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,900");
 
 html, body, div, span, applet, object,
@@ -79,7 +78,7 @@ input, select, textarea {
 	body {
 		background-color: #23141f;
 		background-attachment: scroll,							fixed;
-		background-image: url(""), url("../../images/bg-stacks.jpg");
+		background-image: url(""), url("../../images/bg-books.jpg");
 		background-position: top left,						top center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -1761,7 +1760,7 @@ input, select, textarea {
 		}
 
 	footer.major {
-		border-top: solid 1px #313032;
+		border-top: solid 1px #d0cfd1;
 		padding: 4em 0 0 0;
 		text-align: center;
 	}
@@ -1890,7 +1889,6 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1984,7 +1982,6 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2502,7 +2499,7 @@ input, select, textarea {
 
 	.main.style2 > section {
 		border-top: solid 1px #313032;
-		height: 17em;
+		height: 550px;
 		margin: 0 0 4em 0;
 		padding: 4em 0 0 0;
 		position: relative;
@@ -2511,7 +2508,7 @@ input, select, textarea {
 
 		.main.style2 > section:first-of-type {
 			border-top: 0;
-			height: 13em;
+			height: 535px;
 			padding-top: 0;
 		}
 
@@ -2803,6 +2800,8 @@ input, select, textarea {
 	#copyright {
 		margin-bottom: 6em;
 		text-align: center;
+		color: #ffffff;
+		text-shadow: 0 0 2px #000000;
 	}
 
 /* XLarge */
@@ -3034,7 +3033,6 @@ input, select, textarea {
 					#navButton .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
