@@ -18,4 +18,4 @@ font-awesome-icon-logo: fas fa-feather-alt
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: pretty
