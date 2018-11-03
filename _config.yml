@@ -9,24 +9,11 @@
 title: Melita Joy
 email: email@email.com
 description: A website for author Melita Joy.
-#baseurl: "/phantom-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://melitajoy.com" # the base hostname & protocol for your site
+url: "https://www.melitajoy.com" # the base hostname & protocol for your site
 
 # Logo settings
 logo-image-url: images/logo.svg
 font-awesome-icon-logo: fas fa-feather-alt
-
-# Social settings
-github_username: j-afarian
-twitter_username: jennaafarian
-facebook_URL: https://facebook.com/justbells
-instagram_username: bellaruns
-gitlab_username: afarian
-mastodon_username: afarian
-codepen_username: j-afarian
-stackoverflow_username: 9299547/j-afarian
-discord_URL: https://discordapp.com/users/169305848231755776
-linkedin_username: jenna-afarian
 
 
 # Build settings
