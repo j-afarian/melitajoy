@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/about.html</loc>
-<lastmod>2018-11-04T06:59:51+10:00</lastmod>
+<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/index.html</loc>
-<lastmod>2018-11-04T07:01:11+10:00</lastmod>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/elements.html</loc>
 <lastmod>2018-06-14T06:19:50+10:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/index.html</loc>
-<lastmod>2018-11-04T18:53:54+10:00</lastmod>
 </url>
 </urlset>
